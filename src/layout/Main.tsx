@@ -5,7 +5,10 @@ import NavBar from "../components/NavBar";
 
 const Main = () => {
   return (
-    <div>
+    <div
+      className='d-flex flex-column justify-content-between'
+      style={{ minHeight: "100vh" }}
+    >
       <NavBar></NavBar>
       <Outlet></Outlet>
       <Footer></Footer>

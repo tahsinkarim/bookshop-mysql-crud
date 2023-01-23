@@ -1,1 +1,0 @@
-# bookshop-mysql-crud
